@@ -1,0 +1,107 @@
+<!doctype html>
+<html>
+  <head>
+    <title>Admin</title>
+  </head>
+  <body style="color: black; background-color: white;">
+
+    <div id="match">
+      <div id="blue">
+        <span>Name: <input id="name" class="name" placeholder="Blue" maxlength="24" /><span>
+        <span>Score:
+          <select id="score" class="score">
+            <option value="0">0</option>
+            <option value="1">1</option>
+            <option value="2">2</option>
+            <option value="3">3</option>
+            <option value="4">4</option>
+          </select>
+        </span>
+      </div>
+
+      <div id="orange">
+        <span>Name: <input id="name" class="name" placeholder="Orange" maxlength="24" /><span>
+        <span>Score:
+          <select id="score" class="score">
+            <option value="0">0</option>
+            <option value="1">1</option>
+            <option value="2">2</option>
+            <option value="3">3</option>
+            <option value="4">4</option>
+          </select>
+        </span>
+      </div>
+
+      <div id="meta">
+        Best of 
+        <select id="bestOf">
+          <option value="3">3</option>
+          <option value="5">5</option>
+          <option value="7">7</option>
+        </select>
+      </div>
+
+      <div id="">
+        Region:
+        <select id="region">
+          <option value="Asia">Asia</option>
+          <option value="Europe">Europe</option>
+          <option value="NorthAmerica">North America</option>
+          <option value="Oceania">Oceania</option>
+          <option value="SouthAmerica">South America</option>
+        </select>
+      </div>
+
+    </div>
+
+    <iframe class="preview" src="/scoreboard"></iframe>
+
+    <div id="caster">
+      <span>Left: <input id="left" placeholder="Left" maxlength="14" /><span>
+      <span>Right: <input id="right" placeholder="Right" maxlength="14" /><span>
+    </div>
+
+    <iframe class="preview" src="/caster"></iframe>
+
+
+    <div id="">
+        Organization:
+        <select id="organization">
+          <option value="agtv">AGTV</option>
+          <option value="bl1">Boost Legacy (BL)</option>
+          <option value="cca">College Carball (CCA)</option>
+          <option value="mg">Mind Games (MG)</option>
+          <option value="mld">Minor League Doubles (MLD)</option>
+          <option value="myth1">Mythical Esports (Myth)</option>
+          <option value="nexus">Nexus Gaming (NXS)</option>
+          <option value="orsa">ORSA</option>
+          <option value="ppl">Pulsar Premier League (PPL)</option>
+          <option value="prl">Pro Rivalry League (PRL)</option>
+          <option value="rd">Rocket Dailies</option>
+          <option value="rg">Rewind Gaming (RG)</option>
+          <option value="rhl">Rocket Hockey League (RHL)</option>
+          <option value="rla">Rocket League Asia (RLA)</option>
+          <option value="rlc">Rocket League Central (RLC)</option>
+          <option value="rlg">Rocket League Garage (RLG)</option>
+          <option value="rlo">Rocket League Oceania (RLO)</option>
+          <option value="rlw">Rocket League World (RLW)</option>
+          <option value="rs">Rocket Street (RS)</option>
+          <option value="spl">Shift Pro League (SPL)</option>
+          <option value="svs">State vs State (SvS)</option>
+          <option value="txrl">TexasRL (TXRL)</option>
+          <option value="vvv">vVv Gaming (vVv)</option>
+        </select>
+      </div>
+    <iframe class="preview" src="/spotlight"></iframe>
+
+    <footer>
+      <link rel="stylesheet" type="text/css" href="/assets/css/admin.css">
+      <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
+
+      <script src="/socket.io/socket.io.js"></script>
+      <script src="https://code.jquery.com/jquery-1.12.4.js"></script>
+      <script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
+      <script src="/assets/js/admin.js" type="text/javascript"></script>
+    </footer>
+  </body>
+</html>

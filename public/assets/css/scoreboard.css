@@ -1,0 +1,42 @@
+@import url("/assets/css/main.css");
+
+#blueName {
+  text-align: center;
+  position: fixed;
+  left: 25%;
+  top: 3%;
+  width: 16%;
+}
+
+#orangeName {
+  text-align: center;
+  position: fixed;
+  right: 25%;
+  top: 3%;
+  width: 16%;
+}
+
+#blueScore {
+  position: fixed;
+  top: 8.25%;
+  left: 46.5%;
+  width: 1%;
+  text-align: center;
+}
+
+#orangeScore {
+  position: fixed;
+  top: 8.25%;
+  right: 46.5%;
+  width: 1%;
+  text-align: center;
+}
+
+#series {
+  text-align: center;
+  position: fixed;
+  left: 48%;
+  top: 11.5%;
+  width: 4%;
+  font-size: 2vmin;
+}

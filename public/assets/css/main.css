@@ -1,0 +1,34 @@
+@font-face {
+  font-family: Roboto;
+  src: url('../fonts/Roboto/Roboto-Bold.ttf');
+} 
+
+@font-face {
+  font-family: Anton;
+  src: url('../fonts/Anton/Anton-Regular.ttf');
+} 
+
+body {
+  width: 100%;
+  height: 100%;
+  margin: 0px;
+  font-family: 'Roboto';  
+  font-size: 3.5vmin;
+  color: white;
+}
+
+iframe {
+  border: none;
+}
+
+p {
+  margin: 0px;
+}
+
+.overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 100%;
+}
