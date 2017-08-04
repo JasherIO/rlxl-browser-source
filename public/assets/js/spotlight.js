@@ -43,9 +43,9 @@ var spotlight = {
   },
   "orsa": {
     "logo": "/assets/img/Organizations/orsa.png",
-    "command": "",
-    "twitter": "",
-    "twitch": ""
+    "command": "!orsa",
+    "twitter": "ERocketSports",
+    "twitch": "ERocketSports"
   },
   "ppl": {
     "logo": "/assets/img/Organizations/ppl2.png",
