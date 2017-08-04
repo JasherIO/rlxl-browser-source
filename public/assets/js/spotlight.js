@@ -67,9 +67,9 @@ var spotlight = {
   },
   "rg": {
     "logo": "/assets/img/Organizations/rg.png",
-    "command": "!rd",
-    "twitter": "Rocket_Dailies",
-    "twitch": "Rocket_Dailies"
+    "command": "!rewind",
+    "twitter": "RewindRL",
+    "twitch": "RewindRL"
   },
   "rhl": {
     "logo": "/assets/img/Organizations/rhl.png",
