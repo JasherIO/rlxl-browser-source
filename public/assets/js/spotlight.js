@@ -48,7 +48,7 @@ var spotlight = {
     "twitch": ""
   },
   "ppl": {
-    "logo": "/assets/img/Organizations/ppl.png",
+    "logo": "/assets/img/Organizations/ppl2.png",
     "command": "!ppl",
     "twitter": "PulsarPremier",
     "twitch": "PulsarPremierLeague"
@@ -73,7 +73,7 @@ var spotlight = {
   },
   "rhl": {
     "logo": "/assets/img/Organizations/rhl.png",
-    "command": "",
+    "command": "!rhl",
     "twitter": "",
     "twitch": ""
   },
@@ -120,7 +120,7 @@ var spotlight = {
     "twitch": "ShiftProLeague"
   },
   "svs": {
-    "logo": "/assets/img/Organizations/svs.png",
+    "logo": "/assets/img/Organizations/SvS.png",
     "command": "!svs",
     "twitter": "",
     "twitch": ""
