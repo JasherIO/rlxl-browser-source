@@ -126,7 +126,7 @@ var spotlight = {
     "twitch": "StateVsState"
   },
   "txrl": {
-    "logo": "/assets/img/Organizations/txrl.png",
+    "logo": "/assets/img/Organizations/TXRL.png",
     "command": "!txrl",
     "twitter": "TexasRL",
     "twitch": "TexasRL"
