@@ -126,13 +126,13 @@ var spotlight = {
     "twitch": "StateVsState"
   },
   "throwdown": {
-    "logo": "/assets/img/Organizations/TXRL.png",
+    "logo": "/assets/img/Organizations/throwdown.png",
     "command": "!throwdown",
     "twitter": "ThrowdownTV",
     "twitch": "ThrowdownTV"
   },
   "txrl": {
-    "logo": "/assets/img/Organizations/throwdown.png",
+    "logo": "/assets/img/Organizations/TXRL.png",
     "command": "!texasrl",
     "twitter": "TexasRL",
     "twitch": "TexasRL"
