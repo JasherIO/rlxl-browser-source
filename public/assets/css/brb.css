@@ -1,0 +1,7 @@
+@import url("/assets/css/main.css");
+
+#donation {
+  position: absolute;
+  width: 100%;
+  bottom: -18%;
+}

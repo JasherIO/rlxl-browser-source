@@ -51,6 +51,7 @@ var spotlight = {
 io.on('connection', function(socket){
   io.emit('caster', caster);
   io.emit('scoreboard', scoreboard);
+  io.emit('spotlight', spotlight);
 
   socket.on('caster', function(data) {
     caster['left'] = data['left'];
@@ -71,6 +72,12 @@ io.on('connection', function(socket){
 
     console.log(scoreboard);
     io.emit('scoreboard', scoreboard);
+  });
+
+  socket.on('spotlight', function(data) {
+    spotlight['organization'] = data['organization'];
+
+    io.emit('spotlight', spotlight);
   });
 });
 

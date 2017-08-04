@@ -17,3 +17,9 @@
   font-size: 3.25vmin;
   text-align: center;
 }
+
+#donation {
+  position: absolute;
+  width: 100%;
+  bottom: -18%;
+}

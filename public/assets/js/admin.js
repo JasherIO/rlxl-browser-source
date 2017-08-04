@@ -99,3 +99,15 @@ $('#right').on('change', function() {
   socket.emit('caster', caster);
   console.log(caster);
 });
+
+socket.on('spotlight', function(data) {
+  spotlight['organization'] = data['organization'];
+
+  $('#organization').val(spotlight['organization']);
+});
+
+$('#organization').on('change', function() {
+  spotlight['organization'] = $('#organization').val();
+  socket.emit('spotlight', spotlight);
+  console.log(spotlight);
+});
