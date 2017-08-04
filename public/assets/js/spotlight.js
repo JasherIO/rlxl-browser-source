@@ -19,7 +19,7 @@ var spotlight = {
   },
   "mg": {
     "logo": "/assets/img/Organizations/mg.png",
-    "command": "!mg",
+    "command": "!mge",
     "twitter": "MindGamesEsport",
     "twitch": "MindGamesEsport"
   },
@@ -31,7 +31,7 @@ var spotlight = {
   },
   "myth1": {
     "logo": "/assets/img/Organizations/myth1.png",
-    "command": "!myth",
+    "command": "!mythical",
     "twitter": "Mythical_Es",
     "twitch": "MythicalEsports"
   },
@@ -61,7 +61,7 @@ var spotlight = {
   },
   "rd": {
     "logo": "/assets/img/Organizations/rd.png",
-    "command": "!rd",
+    "command": "!dailies",
     "twitter": "Rocket_Dailies",
     "twitch": "Rocket_Dailies"
   },
@@ -109,7 +109,7 @@ var spotlight = {
   },
   "rs": {
     "logo": "/assets/img/Organizations/rs.png",
-    "command": "!rs",
+    "command": "!rocketstreet",
     "twitter": "RocketStreet",
     "twitch": "RocketStreetLive"
   },
@@ -125,9 +125,15 @@ var spotlight = {
     "twitter": "StateVsState",
     "twitch": "StateVsState"
   },
-  "txrl": {
+  "throwdown": {
     "logo": "/assets/img/Organizations/TXRL.png",
-    "command": "!txrl",
+    "command": "!throwdown",
+    "twitter": "ThrowdownTV",
+    "twitch": "ThrowdownTV"
+  },
+  "txrl": {
+    "logo": "/assets/img/Organizations/throwdown.png",
+    "command": "!texasrl",
     "twitter": "TexasRL",
     "twitch": "TexasRL"
   },
