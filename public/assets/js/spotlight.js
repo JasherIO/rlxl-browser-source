@@ -104,8 +104,8 @@ var spotlight = {
   "rlw": {
     "logo": "/assets/img/Organizations/rlw.png",
     "command": "!rlw",
-    "twitter": "",
-    "twitch": ""
+    "twitter": "RLWCommunity",
+    "twitch": "RocketLeagueWorld"
   },
   "rs": {
     "logo": "/assets/img/Organizations/rs.png",
