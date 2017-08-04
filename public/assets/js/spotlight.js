@@ -20,8 +20,8 @@ var spotlight = {
   "mg": {
     "logo": "/assets/img/Organizations/mg.png",
     "command": "!mg",
-    "twitter": "",
-    "twitch": ""
+    "twitter": "MindGamesEsport",
+    "twitch": "MindGamesEsport"
   },
   "mld": {
     "logo": "/assets/img/Organizations/mld.png",
