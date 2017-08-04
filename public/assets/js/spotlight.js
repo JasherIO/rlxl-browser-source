@@ -74,8 +74,8 @@ var spotlight = {
   "rhl": {
     "logo": "/assets/img/Organizations/rhl.png",
     "command": "!rhl",
-    "twitter": "",
-    "twitch": ""
+    "twitter": "RHLHockeyLeague",
+    "twitch": "RocketHockeyLeague"
   },
   "rla": {
     "logo": "/assets/img/Organizations/rla.png",
@@ -122,8 +122,8 @@ var spotlight = {
   "svs": {
     "logo": "/assets/img/Organizations/SvS.png",
     "command": "!svs",
-    "twitter": "",
-    "twitch": ""
+    "twitter": "StateVsState",
+    "twitch": "StateVsState"
   },
   "txrl": {
     "logo": "/assets/img/Organizations/txrl.png",
